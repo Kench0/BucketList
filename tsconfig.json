@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "target": "ES2015",
+    "importHelpers": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "outDir": "src",
+    "rootDir": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "useDefineForClassFields": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "include": [
+    "index.d.ts",
+    "src/*.ts",
+    "src/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "declarations.d.ts"
+  ],
+  "extends": "expo/tsconfig.base"
+}
